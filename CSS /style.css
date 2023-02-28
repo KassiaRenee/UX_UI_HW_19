@@ -194,7 +194,6 @@ button{
 
 .bottomCaption button:hover{
     transform: scale(1.1,1.1);
-    background-color: #151D15;
 }
 
 .skillsPage{
@@ -349,6 +348,14 @@ button{
     text-align: center;
 }
 
+.project{
+    display:grid;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
 
 .project button{
     display:inline-block;
@@ -365,7 +372,6 @@ button{
 }
 .project button:hover{
     transform: scale(1.1,1.1);
-    background-color: #151D15;
 }
 
 .copyright{
