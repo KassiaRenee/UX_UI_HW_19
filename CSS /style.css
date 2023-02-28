@@ -240,19 +240,19 @@ button{
     align-items: center;
     height: 40px;
     padding-top: 2%;
-
 }
 
 .uxContainer{
     width:50%
 }
+
 .uxSkills1{
     display:flex;
     justify-content:end;
     text-align:left;
     margin-left:5%;
     margin-right:35%; 
-    }
+ }
 
 .uxSkills2{
     display:flex;
@@ -278,6 +278,7 @@ button{
     background-color: #222E22;
     filter: drop-shadow( 0px 3px 3px black);
 }
+
 .skillsContainer{
     display:flex;
     flex-direction: column;
@@ -314,6 +315,7 @@ button{
     padding-left:2%;
 
 }
+
 .skillsCaption{
     text-align: center;
     letter-spacing: 1px;
@@ -348,15 +350,6 @@ button{
     text-align: center;
 }
 
-.project{
-    display:grid;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
-}
-
-
 .project button{
     display:inline-block;
     justify-content: center;
@@ -378,13 +371,14 @@ button{
     margin-right: 5%;
     margin-top: 8%;
 }
+
 .copywriteText{
     display:flex;
     margin-right: 3%;
     margin-top:10%;
-    letter-spacing: 0px;
-    
+    letter-spacing: 0px;   
 }
+
 footer{
     margin:0px !important;
     background-color: #EFE3CF;
@@ -393,7 +387,6 @@ footer{
     align-items:center; 
     width:100%;
 }
-
 
 
 @media only screen and (max-width:600px){
