@@ -19,8 +19,8 @@ header{
     margin:0px !important;
     background-color: #EFE3CF;
     display:flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     width:100%;
 }
 
@@ -30,7 +30,7 @@ header{
 
 .navMenu li{
     list-style: none;
-    padding: 20px;
+    padding: 20px;   
     font-family: 'raleway', sans-serif;
     font-size: 21px;
     letter-spacing: 1px;
@@ -57,30 +57,40 @@ header{
     padding: 10px;
 }
 
+.myEmail:hover{
+transform: scale(1.1,1.1);
+}
+
 .linkedIn{
     padding:10px;
 }
 
+.linkedIn:hover{
+    transform: scale(1.1,1.1);
+}
+
 h1{
     font-family: 'EB Garamond', serif;
+    font-style: italic;
     font-size: 98px;
-    letter-spacing: 1px;
+    letter-spacing: 6px;
 }
 
 h2{
-    font-family: 'EB Garamond', serif;
+    font-family: 'raleway', sans-serif;
     font-size: 62px;
     letter-spacing: 1px;;
 }
 
 h3{
-    font-family: 'EB Garamond', serif;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
     font-size: 50px;
     letter-spacing: 1px;
 }
 
 h4{
-    font-family: 'EB Garamond', serif;
+    font-family: 'raleway', sans-serif;
     font-size: 40px;
 }
 
@@ -115,22 +125,28 @@ p{
     background-color: #222E22;
     height:200px;
     filter: drop-shadow( 0px 3px 3px black);
-    color: white;
-    justify-content: space-evenly;
-    font-family: 'EB Garamond', serif;
+    color: #EFE3CF;
+    font-family: 'raleway', sans-serif;
     
 }
  
 .rightIntro{
 position: relative;
+font-family: 'raleway', sans-serif;
 margin-top:0%;
-Margin-left: 15%
+margin-left: 15%;
+}
+
+.midIntro{
+    margin-right: 150px;
+    align-items: center;
 }
 
 .leftIntro{
 position:relative;
+display:flex;
 Margin-top: 0%;
-margin-right:11%;
+margin-left: 30px;
 }
 
 .aboutMe{
@@ -146,8 +162,10 @@ margin-right:11%;
     display:flex;
     justify-content:start;
     text-align:left;
-    margin-top: 7%;
-    margin-right: 20%;
+    margin-top: 18%;
+    margin-right: 10%;
+    padding-bottom: 20%;
+    padding-left: 5%;
 }
 
 .para2{
@@ -156,11 +174,14 @@ margin-right:11%;
     text-align: right;
     align-items:flex-end;
     margin-left: 8%;
+    padding-right: 4%;
 
 }
 
 .myPic{
-margin-left: 4%;
+margin-left: 2%;
+margin-right: 2%;
+margin-top: 2%;
 width:50%;
 
 }
@@ -171,7 +192,6 @@ width:50%;
     padding-right: 2%;
     margin-top: -100px;
     z-index: 2;
-
 }
 
 .content{
@@ -203,30 +223,39 @@ button{
     border: solid 1px #222E22;
 }
 
+.skillsTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 6%;
+    padding-left: 22%;
+}
+
 .skillDescripts{
     display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 1%;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 0px;
 }
 
 .descripts{
     display: flex;
-    justify-content: space-between;
-    border: solid 2px #222E22;
-    margin:1% 2.5% 0% 5%;
+    margin-left: 0%;
+    margin-top: 0%;
+    justify-content:center;
+    width:97%;
 
 }
 .descripts li{
     list-style: none;
     font-family: 'EB Garamond', serif;
     display:flex;
-    align-items: center;
-    padding: 0px 15px;
+    align-items:center;
+    padding:25px;
     font-size: 28px;
     letter-spacing: 1px;
     color: #222E22;
-    justify-content: space-between;
 }
 
 .aboutSkills{
@@ -234,16 +263,8 @@ button{
     flex-direction: column;
 }
 
-.skillsTitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    padding-top: 2%;
-}
-
 .uxContainer{
-    width:50%
+    width:95%
 }
 
 .uxSkills1{
@@ -256,69 +277,52 @@ button{
 
 .uxSkills2{
     display:flex;
-    justify-content:flex-end;
+    justify-content:end;
     text-align: right;
-    align-items: flex-end;
-    margin-left: 30%;
-    margin-right: 5%;   
+    margin-left: 35%;
+    margin-right: 1%;   
 }
 
 .skillSection{
     display:flex;
-    flex-direction:row;
-    width:90%;
-    margin-left: 3%;
+    flex-direction: row;
+    width:95%;
+    height:fit-content;
+    margin-left: 1%;
     padding: 1.5%;
     align-items: center;
     justify-content: space-evenly;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
-    background-color: #222E22;
-    filter: drop-shadow( 0px 3px 3px black);
+    border:solid 2px #222E22;
 }
 
 .skillsContainer{
     display:flex;
-    flex-direction: column;
-    width:166px;
-    height: 212px;
-    margin-left:8px;
-    padding-top: 2%;
+    flex-direction: row;
+    width:30%;
+    height: 40%;
+    padding-top: 0%;
     align-items:center;
     justify-content: space-evenly;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
     color:#222E22;
-    background-color: #EFE3CF;
-    filter: drop-shadow( 0px 3px 3px #222e22);
 }
 
-.skills{
+.skill{
     display:flex;
     flex-direction: column;
-    width:134px;
-    height: 187px;
+    width:100px;
+    height: 100px;
     align-items:center;
     justify-content: space-evenly;
-    padding-left:2%;
-}
-
-.skillImage{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:space-evenly;
-    padding-left:2%;
-
+    justify-items: space-around;
+    padding:5%;
+    margin: 5%;
 }
 
 .skillsCaption{
     text-align: center;
     letter-spacing: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .workPage{
@@ -331,8 +335,10 @@ button{
 .workTitle{
     display: flex;
     justify-content: center;
-    border: solid 2px #222E22;
-    margin:3% 2.5% 0% 5%;
+    align-items: center;
+    height: 40px;
+    padding-top: 6%;
+    padding-left: 42%;
 }
 
 .workGrid{
@@ -399,12 +405,6 @@ footer{
     padding: 1.5%;
     align-items: center;
     justify-content: space-evenly;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
-    background-color: #222E22;
-    filter: drop-shadow( 0px 3px 3px black);
 }
 .skillsContainer{
     display:flex;
@@ -415,11 +415,6 @@ footer{
     padding-top: 2%;
     align-items:center;
     justify-content: space-evenly;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
-    color:#222E22;
     background-color: #EFE3CF;
     border:solid 2px #222E22;
     filter: drop-shadow( 0px 3px 3px #222e22);
@@ -435,13 +430,6 @@ footer{
     padding-left:2%;
 }
 
-.skillImage{
-    display:flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content:space-evenly;
-    padding-left:2%;
-}
     
 .workGrid{
     display:grid;
