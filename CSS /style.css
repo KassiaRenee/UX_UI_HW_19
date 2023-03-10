@@ -289,12 +289,18 @@ button{
     width:95%;
     height:fit-content;
     margin-left: 1%;
+    margin-right: .5%;
     padding: 1.5%;
     align-items: center;
     justify-content: space-evenly;
-    border:solid 2px #222E22;
 }
 
+.skillImage{
+    height:135px; 
+    width:135px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 .skillsContainer{
     display:flex;
     flex-direction: row;
@@ -304,18 +310,6 @@ button{
     align-items:center;
     justify-content: space-evenly;
     color:#222E22;
-}
-
-.skill{
-    display:flex;
-    flex-direction: column;
-    width:100px;
-    height: 100px;
-    align-items:center;
-    justify-content: space-evenly;
-    justify-items: space-around;
-    padding:5%;
-    margin: 5%;
 }
 
 .skillsCaption{
@@ -409,28 +403,22 @@ footer{
 .skillsContainer{
     display:flex;
     flex-direction: column;
-    width:90%;
+    width:60%;
     height: 40%;
     margin-left:8px;
     padding-top: 2%;
     align-items:center;
     justify-content: space-evenly;
-    background-color: #EFE3CF;
-    border:solid 2px #222E22;
-    filter: drop-shadow( 0px 3px 3px #222e22);
+    filter: drop-shadow( 0px 2px 2px #222e22);
+}
+ 
+.skillImage{
+    height:135px; 
+    width:135px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.skills{
-    display:flex;
-    flex-direction: column;
-    width:50%;
-    height: 90%;
-    align-items:center;
-    justify-content: space-evenly;
-    padding-left:2%;
-}
-
-    
 .workGrid{
     display:grid;
     grid-template-columns: 1fr;
