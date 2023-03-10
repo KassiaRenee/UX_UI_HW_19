@@ -388,7 +388,6 @@ footer{
     width:100%;
 }
 
-
 @media only screen and (max-width:600px){
     
 .skillSection{
@@ -409,7 +408,6 @@ footer{
     padding-top: 2%;
     align-items:center;
     justify-content: space-evenly;
-    filter: drop-shadow( 0px 2px 2px #222e22);
 }
  
 .skillImage{
